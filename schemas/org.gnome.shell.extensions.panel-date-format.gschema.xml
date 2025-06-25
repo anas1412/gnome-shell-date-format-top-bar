@@ -1,0 +1,39 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.panel-date-format" path="/org/gnome/shell/extensions/panel-date-format/">
+
+    <!-- We'll keep the custom format for advanced users, but hide it by default -->
+    <key name="use-custom-format" type="b">
+      <default>false</default>
+      <summary>Use a custom format string instead of the UI settings</summary>
+    </key>
+    <key name="custom-format" type="s">
+      <default>'%a %d/%m/%Y %I:%M %p'</default>
+      <summary>Custom format string for the clock</summary>
+      <description>Format for the clock. Syntax https://developer.gnome.org/glib/stable/glib-GDateTime.html#g-date-time-format</description>
+    </key>
+
+    <!-- UI-driven settings -->
+    <key name="show-weekday" type="b">
+      <default>true</default>
+      <summary>Show the day of the week (e.g., Mon)</summary>
+    </key>
+    <key name="show-date" type="b">
+      <default>true</default>
+      <summary>Show the date (e.g., Oct 27)</summary>
+    </key>
+    <key name="show-seconds" type="b">
+      <default>false</default>
+      <summary>Show seconds in the time</summary>
+    </key>
+    <key name="use-12h-clock" type="b">
+      <default>false</default>
+      <summary>Use 12-hour format (AM/PM)</summary>
+    </key>
+    <key name="date-order" type="s">
+      <default>'date-time'</default>
+      <summary>Order of date and time ('date-time', 'time-date')</summary>
+      <description>Determines if the date or the time comes first.</description>
+    </key>
+
+  </schema>
+</schemalist>
