@@ -1,7 +1,7 @@
 *.zip
 *~
 *.log
-gschemas.compiled
+#gschemas.compiled
 node_modules/
 .vscode/
 .idea/
