@@ -1,5 +1,5 @@
 <schemalist>
-  <schema id="org.gnome.shell.extensions.panel-date-format" path="/org/gnome/shell/extensions/panel-date-format/">
+  <schema id="org.gnome.shell.extensions.date-format-top-bar" path="/org/gnome/shell/extensions/date-format-top-bar/">
 
     <!-- We'll keep the custom format for advanced users, but hide it by default -->
     <key name="use-custom-format" type="b">
