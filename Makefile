@@ -2,7 +2,7 @@ TARGET = "date-format-top-bar@anas1412.github.com.zip"
 
 DIST_FILES = \
 	schemas/ \
-	convenience.js \
+	prefs.js \
 	extension.js \
 	icon.svg \
 	LICENSE \
