@@ -4,7 +4,9 @@ Allows you to fully customize the date and time format in the GNOME panel throug
 
 **Note:** You should replace the screenshot below with a new one showing your updated settings panel!
 
-![New Settings Panel](./screenshot.png?raw=true)
+<p align="center">
+    <img src="./screenshot.png?raw=true" alt="New Settings Panel">
+</p>
 
 ## Features
 
@@ -17,7 +19,7 @@ Allows you to fully customize the date and time format in the GNOME panel throug
 ## How to Configure
 
 1.  Open the **Extensions** application.
-2.  Find "Panel Date Format" in your list of installed extensions.
+2.  Find "Panel Date Format" in your list of installed extensions.~
 3.  Click on settings to open the preferences window.
 
 ### Display Options (Easy Mode)
@@ -47,4 +49,4 @@ The format strings for the Advanced Mode follow the `strftime()` syntax. You can
 
 ## Installation
 
-This repository is intended for development. For regular installation, please get this extension from the official [GNOME Extensions website](https://extensions.gnome.org/extension/1462/panel-date-format/).
+This repository is intended for development.
